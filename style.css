@@ -1,0 +1,17 @@
+.img{
+ height: 400px;
+ width: 400px;
+}
+div{
+gap: 15%;
+}
+.next-button{
+    background-color: purple;
+    color: white;
+    font-size:larger;
+}
+.back-button{
+    background-color: purple;
+    color: white;
+    font-size: larger;
+}
