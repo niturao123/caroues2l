@@ -1,8 +1,9 @@
 img{
-    width: 50%;
-    
+    width: 30%;
 }
-
+h1{
+    align-items: center;
+}
 div{
 gap: 15%;
 }
@@ -15,10 +16,4 @@ gap: 15%;
     background-color: purple;
     color: white;
     font-size: larger;
-}
-
-button{
-    background-color: purple;
-    color: white;
-    font-size:larger ;
 }
