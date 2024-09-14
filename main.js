@@ -12,6 +12,15 @@ nextbutton.addEventListener("click", () => {
     image.setAttribute("src", array[i]);
     image.setAttribute("alt", text[i]);
     console.log(image)
+
+    function randomColor (){
+        let colors = ["yellow", "pink", "wheat","aqua", "orange"]
+        return colors[Math.floor(Math.random()*colors.length)]
+    }
+    
+    nextbutton.addEventListener("click",()=>{
+        document.body.style.backgroundColor = randomColor();
+    })
 })
 backbutton.addEventListener("click", () => {
     // console.log("Hello")
@@ -20,7 +29,24 @@ backbutton.addEventListener("click", () => {
     image.setAttribute("src", array[i]);
     image.setAttribute("alt", text[i]);
     console.log(image)
+
+    function randomColor (){
+        let colors = ["yellow", "pink", "wheat","aqua", "orange"]
+        return colors[Math.floor(Math.random()*colors.length)]
+    }
+    
+    backbutton.addEventListener("click",()=>{
+        document.body.style.backgroundColor = randomColor();
+    })
 })
+// function randomColor (){
+//     let colors = ["yellow", "pink", "wheat","aqua", "orange"]
+//     return colors[Math.floor(Math.random()*colors.length)]
+// }
+
+// document.addEventListener("click",()=>{
+//     document.body.style.backgroundColor = randomColor();
+// })
 
 
 
