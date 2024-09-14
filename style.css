@@ -1,19 +1,26 @@
 img{
     width: 30%;
 }
-h1{
-    align-items: center;
-}
-div{
-gap: 15%;
-}
 .next-button{
-    background-color: purple;
+    background-color: #6a5acd;
     color: white;
-    font-size:larger;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+    
 }
 .back-button{
-    background-color: purple;
+    background-color: #6a5acd;
     color: white;
+    border-radius: 10px;
     font-size: larger;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
 }
