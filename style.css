@@ -1,7 +1,8 @@
-.img{
- height: 400px;
- width: 400px;
+img{
+    width: 50%;
+    
 }
+
 div{
 gap: 15%;
 }
@@ -14,4 +15,10 @@ gap: 15%;
     background-color: purple;
     color: white;
     font-size: larger;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    font-size:larger ;
 }
